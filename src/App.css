@@ -1,6 +1,6 @@
 .links {
   
-  margin: 30px;
+  margin: 40px;
   list-style-type: none;
   font-size: 20px;
   color:lightslategray;
@@ -12,7 +12,8 @@
 .head {
   display: flex;
   list-style-type: none;
-  width: 40%;
+  width: 100%;
+  justify-content:between;
   padding: 60px;
 
 
@@ -22,7 +23,7 @@
   display: flex;
   
 }
-.container{
+.container-1{
   background-color: black;
   padding: auto;
   height: 9vh;
@@ -46,3 +47,91 @@
   top: -1%;
   color: #fff;
 }
+.header-tel{
+  color:lightslategray;
+  font-size: 25px;
+  
+  }
+  .header-text{
+    color: lightslategray;
+    font-size: 17px;
+    padding: 30px;
+    position: absolute;
+    right: 15%;
+    left: 65%;
+  }
+  .btn-2{
+    border-radius: 18px;
+    position: absolute;
+    height: 6vh;
+    width:17vh;
+    color: #fff;
+    left: 100%;
+    top: 9%;
+    background-color: rgb(129, 127, 255);
+    border: none;
+  }
+  .bg-image{
+   width: 40%;
+   align-items: end;
+
+  }
+  .car{
+    position: absolute;
+    height: 80vh;
+    width: 50%;
+    right:-45%;
+    left: 49%;
+    border-radius: 9%;
+    top: 25%;
+  }
+  .header{
+    margin-left: 6%;
+    align-items: center;
+    position: absolute;
+    bottom: 35%;
+    font-size:55px;
+    color:lightslategrey
+  }
+  .home-text{
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    font-size: 23px;
+    color: #4e5d78;
+  }
+  .home-group{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+
+   align-items: center;
+   width: 100%;
+   
+  }
+
+  .vechiles{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .img1{
+    border-radius: 7%;
+    margin: 15px;
+  }
+  .container{
+    position: absolute;
+    top: 20%;
+    justify-content: space-between;
+     
+  }
+  .title1{
+    font-size: 25px;
+    margin-left: 12%;
+  }
+  .year1{
+
+    margin-left: 80%;
+    margin-top:-10%
+  }
