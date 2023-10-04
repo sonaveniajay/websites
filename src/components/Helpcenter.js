@@ -2,7 +2,11 @@ import React from 'react'
 
 function Helpcenter() {
   return (
-    <div>Helpcenter</div>
+    <div>
+      <div>
+        
+      </div>
+    </div>
   )
 }
 
