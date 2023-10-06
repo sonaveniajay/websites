@@ -1,234 +1,53 @@
-.links {
-  
-  margin: 30px;
-  list-style-type: none;
-  font-size: 20px;
-  color:lightslategray;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 50%;
-    
-
-}
-.links:hover{
-  color:red;
-}
-
-.head {
-  
-  display: flex;
-  list-style-type: none;
-  width: 100%;
-  justify-content:between;
-  padding: 60px;
-
-
-}
-.head1{
-  justify-content:center;
-  display: flex;
-
-  
-}
-.container-1{
-  background-color: black;
-  padding: auto;
-  height: 9vh;
-  padding: 5px;
-  position: fixed;
-  width: 100%;
-}
-.btn-1{
-  position: absolute;
-  top: 3%;
-  left: 90%;
-  width: 7%;
-  height: 5vh;
-  background-color: green;
-  color: #fff;
-  border-radius: 30px;
-}
-.color{
-  color: green;
-}
-.text{
-  position: absolute;
-  top: -1%;
-  color: #fff;
-}
-.header-tel{
-  color:lightslategray;
-  font-size: 25px;
-  padding: -20%;
-  position: absolute;
-  right:19%;
-  font-weight: 350;
-  }
-  .header-tel:hover{
-    color: rgb(207, 45, 45);
-
-  }
-  .header-text{
-    color: lightslategray;
-    font-size: 17px;
-    padding: 32px;
-    position: absolute;
-    left: 65%;
-  }
-  .btn-2{
-    border-radius: 18px;
-    position: absolute;
-    height: 6vh;
-    width:17vh;
-    color: #fff;
-    left: 100%;
-    top: 9%;
-    background-color: rgb(129, 127, 255);
-    border: none;
-  }
-  .btn-2:hover{
-    color: lightblue;
-  }
-  .bg-image{
-   width: 40%;
-   align-items: end;
-
-  }
-  .car{
-    position: absolute;
-    height: 80vh;
-    width: 50%;
-    right:-45%;
-    left: 49%;
-    border-radius: 9%;
-    top: 25%;
-    
-  }
-  .header{
-    margin-left: 6%;
-    align-items: center;
-    position: absolute;
-    bottom: 35%;
-    font-size:55px;
-    color:rgb(6, 7, 8);
-    font-weight: 480;
-  }
-  .home-text{
-    position: absolute;
-    top: 65%;
-    left: 7%;
-    font-weight:500;
-    color: #4e5d78;
-  }
-  .home-group{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin-top: 7%;
-
-   align-items: center;
-   width: 100%;
-   
-  }
-
-  .vechiles{
-    list-style-type: none;
-  }
-  .img1{
+.main-div {
     width: 100%;
-    border-radius:7%;
-    padding: 0%;
-    margin-top:50%;
-  }
-  .container{
-    position: absolute;
-    top: 20%;
-    justify-content: space-between;
-     
-  }
-  .title1{
-    font-size: 25px;
-    margin-left: 7%;
-    margin-top:3%;
-  }
-  .year1{
-  
-    font-size:20px;
-    margin-left: 80%;
-    margin-top:-30%
-  }
-  .price1{
-    font-size:25px;
-    margin-top:23%;
-    margin-left:10%;
-  }
-  .btn-buynow{
-    color:#fff;
-    border:none ;
-    border-radius: 10px;
-    background-color: rgb(132, 168, 234);
-    position: absolute;
-    
-    
-    
-  }
-  .btn-buynow:hover{
-    background-color: #999a9b;
-  }
-  .icon{
-    color: aqua;
-    font-size: 20px;
-  }
-  .wheel{
-    margin: 20px;
-    justify-content: space-between;
-  }
-  .wheel1{
-    color: rgb(181, 205, 207);
-    width: 40px;
-    margin-top: -11px;
-  }
-  .icon-1{
-  
-    background-color: rgb(157, 175, 176);
-    height: 6vh;
-    width: 50px;
-    border-radius: 10%;
-    font-size: 30px;
-    align-items: center;
-  }
-  .dollar1{
-    color: rgb(210, 66, 90);
-    font-size:30px;
-    background-color: pink;
-    width: 40px;
-    height:6vh;
-    border-radius:10px;
-    
-  }
-  .document1{
-    font-size: 25px;
-    background-color: #999a9b;
-    width: 40px;
-    height: 6vh;
-    border-radius: 10px;
-  }
-  .insurance1{
-    color: green;
-    background-color: rgb(157, 227, 157);
-    font-size: 40px;
-    width: 40px;
-    height: 6vh;
-    border-radius: 10px;
-  }
-  
-  
-  
-  /* .icon-div{
-    width: 20px;
-    height: 5vh;
-    background-color: #dc3545;
-    color: white;
-  } */
+    height: 100vh;
+    background-color: #e5e8e8;
+}
 
-  
+.sub-div {
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(51, 51, 142);
+    color: whitesmoke;
+    border-radius: 4%;
+}
+
+.lists {
+    list-style-type: none;
+    padding: 10%;
+
+}
+
+.child-div {
+    width: 60%;
+    height: 80vh;
+    margin: 10px;
+
+}
+
+.login {
+    box-shadow: rgb(203, 23, 29);
+
+}
+
+.username {
+    border: none;
+}
+
+.list-items {
+    list-style-type: none;
+}
+
+.main-dasboard {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(215, 243, 250);
+    padding: 4%;
+}
+
+.dashboard {
+    width: 2%;
+    height: 80vh;
+    background-color: rgb(75, 75, 191);
+    border-radius: 20px;
+}
